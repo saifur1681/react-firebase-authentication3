@@ -42,7 +42,7 @@ function App() {
 
   const handleEmailChange = e => {
     setEmail(e.target.value)
-  }
+  };
 
   const handleRegistration = e => {
     e.preventDefault();
