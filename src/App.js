@@ -38,7 +38,7 @@ function App() {
 
   const handlePasswordChange = e => {
     setPassword(e.target.value)
-  }
+  };
 
   const handleEmailChange = e => {
     setEmail(e.target.value)
