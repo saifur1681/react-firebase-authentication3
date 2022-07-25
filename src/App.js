@@ -72,9 +72,7 @@ function App() {
       .then(() => {
 
       })
-  }
-
-
+  };
 
   const handleLogout = () => {
     signOut(auth)
