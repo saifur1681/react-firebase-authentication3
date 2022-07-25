@@ -55,7 +55,7 @@ function App() {
 
 
     console.log(email, password)
-  }
+  };
 
   const loginUser = (email, password) => {
     signInWithEmailAndPassword(auth, email, password)
