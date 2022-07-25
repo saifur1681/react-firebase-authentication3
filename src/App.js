@@ -65,7 +65,7 @@ function App() {
       .catch(error => {
         setError(error.message)
       })
-  }
+  };
 
   const emailVerification = () => {
     sendEmailVerification(auth.currentUser)
